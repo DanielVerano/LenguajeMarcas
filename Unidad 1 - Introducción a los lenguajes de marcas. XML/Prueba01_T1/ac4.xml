@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cluster>
+  <nodo>
+    <ip>192.168.1.0</ip>
+    <nombre>Nodo 1</nombre>
+    <maquina_virtual>
+      <nombre>Maquina Virtual 1</nombre>
+      <sistema_operativo>Windows</sistema_operativo>
+      <interfaz_red>
+        <ip>192.168.1.1</ip>
+        <mac>1111-2222-3333</mac>
+      </interfaz_red>
+      <interfaz_red>
+        <ip>192.168.1.2</ip>
+        <mac>4444-5555-6666</mac>
+      </interfaz_red>
+    </maquina_virtual>
+    <maquina_virtual>
+      <nombre>Maquina Virtual 2</nombre>
+      <sistema_operativo>Mac</sistema_operativo>
+      <interfaz_red>
+        <ip>192.168.1.3</ip>
+        <mac>7777-8888-9999</mac>
+      </interfaz_red>
+    </maquina_virtual>
+  </nodo>
+  <nodo>
+    <nombre>Nodo 2</nombre>
+    <ip>192.168.2.0</ip>
+    <maquina_virtual>
+      <nombre>Maquina Virtual 3</nombre>
+      <sistema_operativo>Linux</sistema_operativo>
+      <interfaz_red>
+        <ip>192.168.2.1</ip>
+        <mac>1111-2222-3333</mac>
+      </interfaz_red>
+    </maquina_virtual>
+    <maquina_virtual>
+      <nombre>Maquina Virtual 4</nombre>
+      <sistema_operativo>Windows</sistema_operativo>
+      <interfaz_red>
+        <ip>192.168.2.2</ip>
+        <mac>4444-5555-6666</mac>
+      </interfaz_red>
+    </maquina_virtual>
+  </nodo>
+  <nodo>
+    <nombre>Nodo 3</nombre>
+    <ip>192.168.3.0</ip>
+    <maquina_virtual>
+      <nombre>Maquina Virtual 5</nombre>
+      <sistema_operativo>Linux</sistema_operativo>
+      <interfaz_red>
+        <ip>192.168.3.1</ip>
+        <mac>1111-2222-3333</mac>
+      </interfaz_red>
+    </maquina_virtual>
+    <maquina_virtual>
+      <nombre>Maquina Virtual 6</nombre>
+      <sistema_operativo>Windows</sistema_operativo>
+      <interfaz_red>
+        <ip>192.168.3.2</ip>
+        <mac>4444-5555-6666</mac>
+      </interfaz_red>
+    </maquina_virtual>
+  </nodo>
+  <nodo>
+    <nombre>Nodo 4</nombre>
+    <ip>192.168.4.0</ip>
+    <maquina_virtual>
+      <nombre>Maquina Virtual 7</nombre>
+      <sistema_operativo>Mac</sistema_operativo>
+      <interfaz_red>
+        <ip>192.168.4.1</ip>
+        <mac>1111-2222-3333</mac>
+      </interfaz_red>
+      <interfaz_red>
+        <ip>192.168.4.2</ip>
+        <mac>4444-5555-6666</mac>
+      </interfaz_red>
+    </maquina_virtual>
+    <maquina_virtual>
+      <nombre>Maquina Virtual 8</nombre>
+      <sistema_operativo>Linux</sistema_operativo>
+      <interfaz_red>
+        <ip>192.168.4.3</ip>
+        <mac>7777-8888-9999</mac>
+      </interfaz_red>
+    </maquina_virtual>
+  </nodo>
+</cluster>
