@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cluster>
+    <nodo id="1">
+        <nombre></nombre>
+        <ip></ip>
+        <maquina_virtual id="1">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+        <maquina_virtual id="2">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+        <maquina_virtual id="3">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+    </nodo>
+    <nodo id="2">
+        <nombre></nombre>
+        <ip></ip>
+        <maquina_virtual id="4">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+        <maquina_virtual id="5">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+        <maquina_virtual id="6">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+    </nodo>
+    <nodo id="3">
+        <nombre></nombre>
+        <ip></ip>
+        <maquina_virtual id="7">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+        <maquina_virtual id="8">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+        <maquina_virtual id="9">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+    </nodo>
+    <nodo id="4">
+        <nombre></nombre>
+        <ip></ip>
+        <maquina_virtual id="10">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+        <maquina_virtual id="11">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+        <maquina_virtual id="12">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+    </nodo>
+    <nodo id="5">
+        <nombre></nombre>
+        <ip></ip>
+        <maquina_virtual id="13">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+        <maquina_virtual id="14">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+        <maquina_virtual id="15">
+            <nombre></nombre>
+            <sistema_operativo></sistema_operativo>
+            <interfaz_red>
+                <ip></ip>
+                <mac></mac>
+            </interfaz_red>
+        </maquina_virtual>
+    </nodo>
+</cluster>

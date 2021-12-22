@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<torneo_tenis>
+    <nombre>US Open</nombre>
+    <fecha_inicio>
+        <dia>30</dia>
+        <mes>Agosto</mes>
+        <año>2021</año>
+    </fecha_inicio>
+    <fecha_fin>
+        <dia>12</dia>
+        <mes>Septiembre</mes>
+        <año>2021</año>
+    </fecha_fin>
+    <partido id="1">
+        <jugador1>Novak Djokovic</jugador1>
+        <jugador2>Daniil Medvedev</jugador2>
+        <fecha>
+            <dia>12</dia>
+            <mes>Septiembre</mes>
+        </fecha>
+        <resultado>
+            <set1>4:6</set1>
+            <set2>4:6</set2>
+            <set3>4:6</set3>
+        </resultado>
+    </partido>
+    <partido id="2">
+        <jugador1>Novak Djokovic</jugador1>
+        <jugador2>Alexander Zverev</jugador2>
+        <fecha>
+            <dia>10</dia>
+            <mes>Septiembre</mes>
+        </fecha>
+        <resultado>
+            <set1>4:6</set1>
+            <set2>6:2</set2>
+            <set3>6:4</set3>
+            <set4>4:6</set4>
+            <set5>6:2</set5>
+        </resultado>
+    </partido>
+    <partido id="3">
+        <jugador1>Felix Auger-Aliassime</jugador1>
+        <jugador2>Daniil Medvedev</jugador2>
+        <fecha>
+            <dia>10</dia>
+            <mes>Septiembre</mes>
+        </fecha>
+        <resultado>
+            <set1>4:6</set1>
+            <set2>5:7</set2>
+            <set3>2:6</set3>
+        </resultado>
+    </partido>
+    <partido id="4">
+        <jugador1>Novak Djokovic</jugador1>
+        <jugador2>Matteo Berrettini</jugador2>
+        <fecha>
+            <dia>8</dia>
+            <mes>Septiembre</mes>
+        </fecha>
+        <resultado>
+            <set1>5:7</set1>
+            <set2>6:2</set2>
+            <set3>6:2</set3>
+            <set4>6:3</set4>
+        </resultado>
+    </partido>
+    <partido id="5">
+        <jugador1>Alexander Zverev</jugador1>
+        <jugador2>Lloyd Harris</jugador2>
+        <fecha>
+            <dia>8</dia>
+            <mes>Septiembre</mes>
+        </fecha>
+        <resultado>
+            <set1>7:6</set1>
+            <set2>6:3</set2>
+            <set3>6:4</set3>
+        </resultado>
+    </partido>
+    <partido id="6">
+        <jugador1>Felix Auger-Aliassime</jugador1>
+        <jugador2>Carlos Alcaraz</jugador2>
+        <fecha>
+            <dia>8</dia>
+            <mes>Septiembre</mes>
+        </fecha>
+        <resultado>
+            <set1>6:3</set1>
+            <set2>3:1</set2>
+            <set3>r</set3>
+        </resultado>
+    </partido>
+    <partido id="7">
+        <jugador1>Botic van de Zandschulp</jugador1>
+        <jugador2>Daniil Medvedev</jugador2>
+        <fecha>
+            <dia>8</dia>
+            <mes>Septiembre</mes>
+        </fecha>
+        <resultado>
+            <set1>3:6</set1>
+            <set2>0:6</set2>
+            <set3>6:4</set3>
+            <set4>5:7</set4>
+        </resultado>
+    </partido>
+    <partido id="8">
+        <jugador1>Daniel Evans</jugador1>
+        <jugador2>Daniil Medvedev</jugador2>
+        <fecha>
+            <dia>6</dia>
+            <mes>Septiembre</mes>
+        </fecha>
+        <resultado>
+            <set1>3:6</set1>
+            <set2>4:6</set2>
+            <set3>3:6</set3>
+        </resultado>
+    </partido>
+    <partido id="9">
+        <jugador1>Alexei Popyrin</jugador1>
+        <jugador2>Daniel Evans</jugador2>
+        <fecha>
+            <dia>6</dia>
+            <mes>Septiembre</mes>
+        </fecha>
+        <resultado>
+            <set1>6:4</set1>
+            <set2>6:3</set2>
+            <set3>3:6</set3>
+            <set4>4:6</set4>
+            <set5>6:7</set5>
+        </resultado>
+    </partido>
+    <partido id="10">
+        <jugador1>Pablo Andujar</jugador1>
+        <jugador2>Daniil Medvedev</jugador2>
+        <fecha>
+            <dia>6</dia>
+            <mes>Septiembre</mes>
+        </fecha>
+        <resultado>
+            <set1>0:6</set1>
+            <set2>4:6</set2>
+            <set3>3:6</set3>
+        </resultado>
+    </partido>
+</torneo_tenis>
