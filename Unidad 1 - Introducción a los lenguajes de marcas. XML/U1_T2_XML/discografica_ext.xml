@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE discografica SYSTEM "discografica_ext.dtd">
+<discografica>
+  <disco>
+    <titulo>Let It Be</titulo>
+    <interprete>
+      <nombre>John</nombre>
+      <apellidos>Lennon</apellidos>
+      <rol>Vocalista</rol>
+    </interprete>
+    <interprete>
+      <nombre>Paul</nombre>
+      <apellidos>McCartney</apellidos>
+      <rol>Guitarrista</rol>
+    </interprete>
+    <pista>
+      <nombre_cancion>Two of Us</nombre_cancion>
+      <duracion>217</duracion>
+    </pista>
+    <pista>
+      <nombre_cancion>Dig a Pony</nombre_cancion>
+      <duracion>220</duracion>
+    </pista>
+    <pista>
+      <nombre_cancion>Across the Universe</nombre_cancion>
+      <duracion>220</duracion>
+    </pista>
+  </disco>
+</discografica>
