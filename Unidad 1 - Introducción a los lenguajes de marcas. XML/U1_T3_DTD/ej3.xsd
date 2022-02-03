@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="relacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="persona" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"></xs:element>
+              <xs:element name="email" type="tipoEmail" maxOccurs="unbounded"></xs:element>
+              <xs:element name="parentesco" type="tipoParentesco" minOccurs="0"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="sexo" type="tipoSexo" use="optional"></xs:attribute>
+            <xs:attribute name="carnet" type="tipoCarnet" use="required"></xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="tipoEmail">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="250"></xs:maxLength>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="tipoParentesco">
+    <xs:attribute name="tipo">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Hijo"></xs:enumeration>
+          <xs:enumeration value="Hija"></xs:enumeration>
+          <xs:enumeration value="Padre"></xs:enumeration>
+          <xs:enumeration value="Madre"></xs:enumeration>
+          <xs:enumeration value="Otro"></xs:enumeration>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:simpleType name="tipoSexo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="hombre"></xs:enumeration>
+      <xs:enumeration value="mujer"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="tipoCarnet">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z][0-9]{4}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

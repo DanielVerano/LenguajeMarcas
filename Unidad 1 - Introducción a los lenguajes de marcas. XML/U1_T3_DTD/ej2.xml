@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ej2.dtd">
+<Libro Catalogo="1234A">
+  <Titulo>Titulo1</Titulo>
+  <Seccion>Seccion1</Seccion>
+  <SubSeccion>Subseccion1</SubSeccion>
+  <Contenido>
+    <Capitulo materia="XML">
+      <Tema>1</Tema>
+    </Capitulo>
+    <Capitulo materia="XHTML">
+      <Tema>2</Tema>
+      <Tema>3</Tema>
+    </Capitulo>
+    <Separacion />
+    <Capitulo materia="XML">
+      <Tema>4</Tema>
+    </Capitulo>
+    <Separacion />
+  </Contenido>
+  <Copyright>Copyright1</Copyright>
+</Libro>

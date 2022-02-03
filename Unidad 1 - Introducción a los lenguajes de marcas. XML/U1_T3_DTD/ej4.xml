@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder orderid="ABCD1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="ej4.xsd">
+  <orderperson>Juan Perez</orderperson>
+  <shipto>
+    <name>Juan García</name>
+    <address>República Argentina</address>
+    <city>Sevilla</city>
+    <country>España</country>
+  </shipto>
+  <item>
+    <title>Titulo1</title>
+    <note>Nota1</note>
+    <quantity>2</quantity>
+    <price>10</price>
+  </item>
+  <item>
+    <title>Titulo2</title>
+    <quantity>5</quantity>
+    <price>5.95</price>
+  </item>
+</shiporder>
