@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria SYSTEM "ej2.dtd">
+<libreria catalogo="Catalogo">
+  <libro titulo="El Quijote" editorial="Santillana" autor="Miguel de Cervantes" />
+  <periodico fecha="2022-02-10" nombre="El Mundo" />
+  <revista marca="Hola">
+    <numero>6</numero>
+    <titular>Titular</titular>
+    <editorial>Editorial</editorial>
+  </revista>
+</libreria>
