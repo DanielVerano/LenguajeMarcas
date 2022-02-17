@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="discografica">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="disco" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="tipoCodigo"></xs:element>
+              <xs:element name="titulo" type="xs:string"></xs:element>
+              <xs:element name="interpretes" type="tipoInterpretes"></xs:element>
+              <xs:element name="pistas" type="tipoPistas"></xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="tipoInterpretes">
+    <xs:sequence>
+      <xs:element name="interprete" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="apellidos" type="xs:string"></xs:element>
+            <xs:element name="rol" type="xs:string" minOccurs="0"></xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="tipoPistas">
+    <xs:sequence>
+      <xs:element name="pista" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="duracion" type="xs:positiveInteger"></xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="tipoCodigo">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[RPCO][0-9]{3}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

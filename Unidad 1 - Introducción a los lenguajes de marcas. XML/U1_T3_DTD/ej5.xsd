@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="biblioteca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="libros">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="libro" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="codigo" type="tipoCodigo"></xs:element>
+                    <xs:element name="categoria" type="tipoCategoria"></xs:element>
+                    <xs:element name="titulo" type="xs:string"></xs:element>
+                    <xs:element name="autores">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="autor" type="tipoAutor" maxOccurs="unbounded"></xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="tipoCodigo">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[T|P|N|H][0-9]{3}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="tipoCategoria">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Teatro"></xs:enumeration>
+      <xs:enumeration value="Poesía"></xs:enumeration>
+      <xs:enumeration value="Novela"></xs:enumeration>
+      <xs:enumeration value="Historia"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="tipoAutor">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"></xs:element>
+      <xs:element name="apellidos" type="xs:string"></xs:element>
+      <xs:element name="pseudonimo" type="xs:string" minOccurs="0"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
