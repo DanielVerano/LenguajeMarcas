@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+
+<body>
+    <form action="/">
+        <fieldset>
+            <legend>Prueba de formulario</legend>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" required>
+
+            <p>
+                <select name="provincia" id="">
+                    <optgroup label="Andalucía">
+                        <option value="S">Sevilla</option>
+                        <option value="C" selected>Cádiz</option>
+                        <option value="H">Huelva</option>
+                    </optgroup>
+                </select>
+            </p>
+
+            <p>
+                <textarea name="hola" id="" cols="50" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos soluta repellendus molestias ratione ipsam. In, doloribus! Dicta, numquam perferendis asperiores sit fugit officia quisquam repudiandae laborum. Soluta dignissimos vero accusantium.
+            </textarea>
+            </p>
+            <p>
+                <button type="submit">Aceptar</button>
+            </p>
+            <p>
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="sexo" id="">Hombre
+                <input type="radio" name="sexo" id="">Mujer
+            </p>
+            <p>
+                <input list="Editores">
+                <datalist id="Editores">
+                    <option value="Word">Word</option>
+                    <option value="Notepad">Notepad</option>
+                    <option value="Writer">Writer</option>
+                </datalist>
+            </p>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

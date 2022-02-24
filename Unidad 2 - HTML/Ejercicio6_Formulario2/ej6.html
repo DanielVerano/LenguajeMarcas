@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">HOJA DE INSCRIPCIÓN
+        EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+    <fieldset>
+        <legend>Datos personales</legend>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="apellidos">Apellidos:</label>
+                        <p><input type="text" name="apellidos" id=""></p>
+                    </td>
+                    <td>
+                        <label for="nombre">Nombre:</label>
+                        <p><input type="text" name="nombre" id=""></p>
+                    </td>
+                    <td>
+                        <label for="dni">DNI:</label>
+                        <p><input type="text" name="dni" id="" required></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="localidad">Localidad:</label>
+                        <p><input type="text" name="localidad" id=""></p>
+                    </td>
+                    <td>
+                        <label for="provincia">Provincia:</label>
+                        <p><select name="provincia" id="">
+                                <option value="-" selected>-Selecciona-</option>
+                                <option value="S">Sevilla</option>
+                                <option value="H">Huelva</option>
+                                <option value="C">Cádiz</option>
+                                <option value="Cordoba">Córdoba</option>
+                                <option value="G">Granada</option>
+                                <option value="J">Jaén</option>
+                                <option value="A">Almería</option>
+                            </select></p>
+                    </td>
+                    <td>
+                        <label for="fecha_nacimiento">Fecha Nacimiento:</label>
+                        <p><input type="date" name="fecha_nacimiento" id=""></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="direccion">Dirección:</label>
+                        <p><input type="text" name="direccion" id=""></p>
+                    </td>
+                    <td>
+                        <label for="cod_postal">Código Postal:</label>
+                        <p><input type="text" name="cod_postal" id=""></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </fieldset>
+</body>
+
+</html>
