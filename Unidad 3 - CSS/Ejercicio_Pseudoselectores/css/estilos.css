@@ -1,0 +1,81 @@
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Utilizando únicamente pseudoselectores da color de fondo verde a las casillas que contienen horas. */
+
+tr td:first-child {
+    background-color: green;
+}
+
+/* Utilizando únicamente pseudoselectores da color de fondo amarillo a la celda de recreo. */
+
+/* th[colspan="5"] {
+    background-color: yellow;
+} */
+
+tr:nth-of-type(4) th:last-child {
+    background-color: yellow;
+}
+
+/* 
+
+Cambiar los estado de los enlaces "Horario de clase..." para que:
+
+    Nunca estén subrayados
+
+    Si están visitados se muestren en rojo
+
+    Si no están visitado se muestren en verde
+
+*/
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+}
+
+/*
+Utilizando pseudoselectores hacer que cuando pasemos el ratón sobre la columna del viernes aumente el tamaño de letra al doble.
+*/
+
+tr:first-of-type th:last-child:hover {
+    font-size: 2em;
+}
+
+/*
+Utilizando Pseudoelementos Haz que la primera letra de los días tenga el doble de tamaño.
+*/
+
+tr:first-of-type th::first-letter {
+    font-size: 2em;
+}
+
+/*
+Utilizando pseudoselectores añade un borde rojo que esté separado 5 px a los campos obligatorios. (padding)
+*/
+
+:required {
+    border: 1px solid red;
+    padding: 5px;
+}
+
+/*
+Utilizando Pseudoelementos añade un * en rojo detrás de las etiquetas.
+*/
+
+label::after {
+    content: "*";
+    color: red;
+}
