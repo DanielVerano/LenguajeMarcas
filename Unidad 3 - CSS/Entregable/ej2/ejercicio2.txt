@@ -1,0 +1,1 @@
+Los últimos 5 párrafos se muestran diferentes porque los dos primeros tienen como nombre de clase 'verse' a la cual se le aplica otro estilo diferente en el archivo estilos.css

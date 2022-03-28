@@ -1,0 +1,9 @@
+Etiqueta body: Hace referencia a todo el cuerpo de la página html.
+Etiqueta h1: Hace referencia al encabezado de mayor tamaño.
+Etiqueta hr: Crea una línea de separación entre dos elementos.
+Etiqueta p: Hace referencia a todos los párrafos.
+p.verse: Hace referencia a las etiquetas p que tienen como nombre de clase 'verse'.
+a:link: Hace referencia a los todos los links.
+a:visited: Hace referencia a los links que estén visitados.
+a:hover: Esta regla se activa cuando pasamos el cursor por encima de los links.
+a:active: Esta regla se activa cuando cliqueamos sobre un link.
