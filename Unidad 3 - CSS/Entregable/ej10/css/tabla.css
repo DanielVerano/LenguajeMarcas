@@ -54,7 +54,7 @@ tbody tr:nth-of-type(2n) {
 /* La regla aplica al pseudo-elemento del elemento <th> en las siguientes condiciones:
     - Cuando el elemento <th> se encuentra en una sección de tabla.
     - Cuando el usuario pasa el ratón por encima del elemento <tr> padre */
-tbody tr:hover th {
+tbody tr:hover th::before {
   position: absolute;
   left: .5rem;
   content: " \0021AA";

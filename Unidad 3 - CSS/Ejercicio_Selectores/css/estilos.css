@@ -1,41 +1,60 @@
+/* Dar lo estilos adecuados para poner un borde simple colapsado y centrar la tabla */
+
 table {
     border-collapse: collapse;
+    margin: 0 auto;
+    width: 50%;
 }
 
 th,
 td {
     border: 1px solid black;
-    padding: 10px;
 }
 
-ul {
-    color: red;
-}
+/* Da a todas las imágenes el mismo tamaño 50x50px */
 
 img {
     width: 50px;
+    height: 50px;
 }
 
-.fila-imagenes {
+/* Centra en la página en texto del título */
+
+h1 {
     text-align: center;
 }
 
-tr.capacidad>td {
+/* Añadiendo sólo un id a la fila de la celda donde pone "Capacidad" y dando clase a las celdas con "GB" cambiar el tamaño de la letra centrar el texto y poner el fondo gris */
+
+tr#capacidad>.gb {
     background-color: grey;
     font-size: 2em;
+    text-align: center;
 }
+
+/* Utilizando clases y una regla de selección haz que todas las celdas con texto de la primera columna tengan fondo rojo y letra blanca. */
 
 .propiedad {
     background-color: red;
     color: white;
 }
 
+/* Dar color de fondo azul a todas las celdas que tiene colspan="2" o colspan="3" */
+
 [colspan="2"],
 [colspan="3"] {
     background-color: blue;
 }
 
-.amarillo {
+/* Utilizando un id aumenta el padding superior e inferior a la celda en la que pone "5 horas" y dale fondo amarillo */
+
+#amarillo {
     background-color: yellow;
-    padding: 50px;
+    padding: 50px 0;
+}
+
+/* Añadiendo sólo un id a la fila que las contiene añade estilos a los elementos de la lista que están dentro de esa fila para ponerles color de texto rojo */
+
+tr#listas li {
+    color: red;
 }
