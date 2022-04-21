@@ -1,0 +1,84 @@
+body {
+    --text-align: center;
+    background-color: #d2d2d2;
+}
+
+.main {
+    position: relative;
+    --display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    background-color: #8fed8f;
+}
+
+.menu {
+    position: sticky;
+    text-align: left;
+    --display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #565656;
+}
+
+.menu div {
+    display: inline-block;
+    color: white;
+    padding: 2% 5%;
+}
+
+.main img {
+    padding-top: 10px;
+    width: 90%;
+}
+
+.main div {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    margin: 1px;
+    width: 22%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+img[alt="Profile"] {
+    width: 75px;
+}
+
+.sidebar {
+    text-align: center;
+    position: fixed;
+    bottom: 15%;
+    width: 80px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+.lugar1 {
+    left: 20%;
+    top: 20%;
+    z-index: 4;
+    transform: rotate(-50deg);
+}
+
+.lugar2 {
+    left: 30%;
+    top: 25%;
+    z-index: 3;
+    transform: rotate(50deg);
+}
+
+.lugar3 {
+    left: 40%;
+    top: 30%;
+    z-index: 2;
+    transform: rotate(-10deg);
+}
+
+.lugar4 {
+    left: 50%;
+    top: 35%;
+    z-index: 1;
+    transform: rotate(10deg);
+}
