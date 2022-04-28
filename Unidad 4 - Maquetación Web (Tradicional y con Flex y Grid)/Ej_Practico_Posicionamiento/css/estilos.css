@@ -49,9 +49,9 @@ img[alt="Profile"] {
 .sidebar {
     text-align: center;
     position: fixed;
-    bottom: 15%;
+    bottom: 25%;
     width: 80px;
-    height: 400px;
+    height: 300px;
     border: 2px solid black;
 }
 
