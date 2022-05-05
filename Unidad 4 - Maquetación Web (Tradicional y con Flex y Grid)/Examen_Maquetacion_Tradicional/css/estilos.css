@@ -1,0 +1,139 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.logo {
+    width: 200px;
+}
+
+.lupa {
+    width: 20px;
+}
+
+.bandera {
+    width: 20px;
+}
+
+.div-logo {
+    float: left;
+    width: 80%;
+}
+
+header {
+    overflow-y: auto;
+}
+
+aside {
+    float: left;
+    text-align: right;
+    width: 20%;
+}
+
+nav {
+    background-color: #ec008c;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+}
+
+.li-item {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+}
+
+.li-item:hover {
+    background-color: blueviolet;
+}
+
+.derecha {
+    float: right;
+    width: 22%;
+}
+
+.derecha h3 {
+    margin: 0;
+}
+
+.izquierda {
+    float: left;
+    width: 75%;
+}
+
+.main-img {
+    color: #ec008c;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+}
+
+.mayorQue {
+    bottom: 22%;
+    position: absolute;
+    right: 3%;
+}
+
+.menorQue {
+    left: 3%;
+    bottom: 22%;
+    position: absolute;
+}
+
+.letrasO {
+    bottom: 5%;
+    font-size: 0.6em;
+    left: 46%;
+    position: absolute;
+}
+
+div.cards {
+    text-align: center;
+    overflow-y: auto;
+}
+
+div.cards img {
+    height: 50px;
+    width: 100px;
+}
+
+div.cards div {
+    border: 1px solid #ec008c;
+    border-radius: 20px;
+    float: left;
+    height: 180px;
+    margin: 10px;
+    padding: 30px;
+    width: 20%;
+}
+
+div.cards div:first-of-type {
+    margin-left: 20%;
+}
+
+footer {
+    background-color: #ec008c;
+    clear: both;
+    color: white;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+}
