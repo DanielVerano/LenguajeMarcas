@@ -72,6 +72,7 @@ img {
 
 footer {
     background-color: lightgrey;
+    clear: both;    /* Si no se pone esta propiedad, se colocará debajo del último elemento no flotante */
     float: left;
     text-align: center;
     width: 100%;

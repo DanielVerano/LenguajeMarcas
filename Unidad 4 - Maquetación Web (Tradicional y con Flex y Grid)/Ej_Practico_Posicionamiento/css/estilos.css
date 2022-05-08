@@ -19,6 +19,8 @@ body {
     width: 80%;
     margin: 0 auto;
     background-color: #565656;
+    top: 0px;   /* Necesario para que se quede fijo en la parte superior */
+    z-index: 10;    /* Para que el menu esté siempre por encima de los demás al hacer scroll */
 }
 
 .menu div {

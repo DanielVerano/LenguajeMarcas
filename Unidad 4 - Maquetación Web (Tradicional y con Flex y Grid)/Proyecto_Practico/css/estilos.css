@@ -16,6 +16,10 @@ body {
     margin: 0 20px;
 }
 
+main {
+    position: relative;
+}
+
 nav {
     color: #f33784;
     background-color: #121867;
@@ -41,7 +45,9 @@ h1 {
 
 .three-cols {
     column-count: 3;
+    margin: 0 auto;
     text-align: center;
+    width: 80%;
 }
 
 .three-cols img {
@@ -67,9 +73,10 @@ h1 {
 }
 
 .diez-birras {
+    clear: both;
     margin: 0 auto;
     text-align: center;
-    width: 90%;
+    width: 75%;
 }
 
 .diez-birras img {
@@ -112,6 +119,17 @@ footer > div {
     color: #f33784;
     height: 100px;
     margin: 10px;
+    position: absolute;
+    right: 10%;
     text-align: center;
-    width: 20%;
+    top: 5%;
+    width: 12%;
+}
+
+.floating-cont button {
+    background-color: #f33784;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
 }
