@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Layout</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <img class="logo" src="img/logo.svg" alt="logo">
+            </div>
+            <div>
+                <h1>[Guia] 10 Lugares para um final de semana de Aventura!</h1>
+                <p>Conheça dicas de lugares para quem busca contato com a natureza.</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="left">
+                <div>
+                    <img class="diez-lugares" src="img/img1.jpg" alt="10-Lugares">
+                </div>
+                <div>
+                    <p>Todas as regiöes do Brasil</p>
+                    <p>Seleccionamos dois lugares para cada regiäo do Brasil para vocé aproveitar
+                        uma aventura
+                        de
+                        final de
+                        semana em contato com a natureza</p>
+                </div>
+            </div>
+            <div class="right">
+                <div>
+                    <p>Faça o download grátis aqui!</p>
+                    <p>Basta preencher o formulário abaixo</p>
+                </div>
+                <div>
+                    <form action="/">
+                        <label for="nombre">Nome*</label>
+                        <div><input type="text" name="nombre"></div>
+                        <label for="email">Email*</label>
+                        <div><input type="text" name="email"></div>
+                        <label for="estado">Estado*</label>
+                        <div>
+                            <select name="estado" id="estado">
+                                <option value="selecione" selected>Selecione</option>
+                                <option value="op1">Opcion 1</option>
+                                <option value="op2">Opcion 2</option>
+                                <option value="op3">Opcion 3</option>
+                            </select>
+                        </div>
+                        <p>Você pratica que tipo de aventura?*</p>
+                        <input type="checkbox" name="trekking" id="">Trekking
+                        <p><button type="submit">Enviar formulario</button></p>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>

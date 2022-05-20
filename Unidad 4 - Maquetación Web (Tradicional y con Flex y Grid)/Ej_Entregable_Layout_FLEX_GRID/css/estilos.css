@@ -1,0 +1,136 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 20% 80%;
+}
+
+.logo {
+    padding: 1em;
+    width: 75%;
+}
+
+.diez-lugares {
+    width: 90%;
+}
+
+/* Header */
+
+header {
+    align-items: center;
+    background-color: #3a4131;
+    color: white;
+    display: flex;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+header h1 {
+    margin-bottom: 0;
+    font-size: 3em;
+    text-align: center;
+}
+
+header p {
+    margin-top: 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header div:first-of-type {
+    text-align: center;
+}
+
+/* Main */
+
+main {
+    background-color: #ba9561;
+    display: flex;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+main > div {
+    padding: 2em;
+    width: 50%;
+}
+
+/* Main Left */
+
+.left div {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.left p:first-of-type {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.left p:nth-of-type(2) {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Main Right */
+
+.right > div {
+    padding: 1em;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.right > div:nth-of-type(1) {
+    background-color: #3a4131;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    color: white;
+    font-size: 1.2em;
+}
+
+.right > div:nth-of-type(1) p:first-of-type {
+    font-weight: bold;
+}
+
+.right > div:nth-of-type(2) {
+    background-color: #bbbbbb;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    color: rgb(99, 99, 99);
+}
+
+/* Form */
+
+form input[type="text"] {
+    line-height: 28px;
+    margin: 10px;
+    width: 95%;
+}
+
+form label {
+    padding: 10px;
+}
+
+form select {
+    height: 30px;
+    margin: 10px;
+    width: 95%;
+}
